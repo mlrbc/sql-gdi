@@ -282,14 +282,25 @@ SELECT 1 FROM DUAL;
 -- 2.7 Fotos
 
 INSERT ALL
-INTO Foto VALUES (1 , '234908724-88', 1)
-INTO Foto VALUES (2 , '171615142-21', 6)
-INTO Foto VALUES (3 , '881391402-21', 2)
-INTO Foto VALUES (4 , '143234503-91', 9)
-INTO Foto VALUES (5 , '888777666-85', 5)
-INTO Foto VALUES (6 , '888777666-85', 4)
-INTO Foto VALUES (7 , '123456789-45', 3)
-INTO Foto VALUES (8 , '456228741-99', 7)
-INTO Foto VALUES (9 , '456228741-99', 10)
-INTO Foto VALUES (10 ,'160742365-48', 8)
+INTO Fotos VALUES (1  , '234908724-88', 1 )
+INTO Fotos VALUES (2  , '171615142-21', 6 )
+INTO Fotos VALUES (3  , '881391402-21', 2 )
+INTO Fotos VALUES (4  , '143234503-91', 9 )
+INTO Fotos VALUES (5  , '888777666-85', 5 )
+INTO Fotos VALUES (6  , '888777666-85', 4 )
+INTO Fotos VALUES (7  , '123456789-45', 3 )
+INTO Fotos VALUES (8  , '456228741-99', 7 )
+INTO Fotos VALUES (9  , '456228741-99', 10)
+INTO Fotos VALUES (10 , '160742365-48', 8 )
 SELECT 1 FROM DUAL;
+
+-- 2.8 Evento
+
+INSERT ALL
+INTO Evento VALUES ('Prêmio Gandhi de Comunicação'                  , TO DATE('01/01/2011' , 'dd/MM/yyyy') , 'Melhor Matéria do Ano'    )
+INTO Evento VALUES ('Prêmio Gandhi de Comunicação'                  , TO DATE('01/01/2011' , 'dd/MM/yyyy') , 'Melhor Jornalista do Ano' )
+INTO Evento VALUES ('Prêmio CNT de Jornalismo'                      , TO DATE('05/05/2016' , 'dd/MM/yyyy') , 'Melhor Matéria do Ano'    )
+INTO Evento VALUES ('Prêmio CNT de Jornalismo'                      , TO DATE('05/05/2016' , 'dd/MM/yyyy') , 'Melhor Jornalista do Ano' )
+INTO Evento VALUES ('Prêmio Chico Mendes Jornalismo Socioambiental' , TO DATE('22/12/2005' , 'dd/MM/yyyy') , 'Melhor Matéria do Ano'    )
+INTO Evento VALUES ('Prêmio Chico Mendes Jornalismo Socioambiental' , TO DATE('22/12/2005' , 'dd/MM/yyyy') , 'Melhor Jornalista do Ano' )
+ SELECT 1 FROM DUAL
